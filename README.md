@@ -63,5 +63,5 @@ The microservice architecture of Spring Boot made the API modular and scalable f
 3)Ease of Use:
 Clear API documentation and well-defined responses helped in seamless client integration.
 
-Conclusion
-The RESTful API for Product Catalogue successfully met ABC Company's requirements by providing a flexible, fast, and reliable backend solution for product management. The implementation with MongoDB allowed dynamic attributes and easy scalability. K
+## Conclusion
+The RESTful API for Product Catalogue successfully met ABC Company's requirements by providing a flexible, fast, and reliable backend solution for product management. The implementation with MongoDB allowed dynamic attributes and easy scalability. 
