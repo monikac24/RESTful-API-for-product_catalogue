@@ -1,84 +1,67 @@
 # Project Overview: RESTful API for Product Catalogue
-# Project Name:
-# RESTful API for Product Catalogue
 
 Client/Organization:
-ABC Company
+LeadToRev Company
 
-Objective
+## Objective :
 The goal of this project was to develop a robust, efficient, and scalable RESTful API for managing a product catalogue. This API facilitates CRUD (Create, Read, Update, Delete) operations on products, enabling seamless integration with a variety of client applications like e-commerce websites, mobile apps, and internal systems.
 
 The API's purpose is to allow users and administrators to:
+a)Add, update, and remove products.
+b)Retrieve product details, including availability, ratings, and categories.
+c)Search and filter products based on attributes.
 
-Add, update, and remove products.
-Retrieve product details, including availability, ratings, and categories.
-Search and filter products based on attributes.
-Technologies Used
+## Technologies Used:
 The project employed the following technologies:
 
-Backend Framework:
+a) Backend Framework:
+1)Spring Boot: To build and manage the RESTful API services.
+2)Spring Data MongoDB: To integrate MongoDB as the database.
 
-Spring Boot: To build and manage the RESTful API services.
-Spring Data MongoDB: To integrate MongoDB as the database.
-Database:
-
+b)Database:
 MongoDB: A NoSQL database to store unstructured and semi-structured data, ideal for flexible product attributes.
-Language:
 
+c)Language:
 Java: The primary language for API development.
-Tools and Environment:
 
-Postman for API testing.
-IntelliJ IDEA/Eclipse as the development environment.
-Git for version control.
-Deployment Platform:
+d)Tools and Environment:
+1)Postman for API testing.
+2)IntelliJ IDEA as development environment.
+3)Git for version control.
 
-Docker (Optional): For containerization and easy deployment.
-AWS/Heroku for hosting.
-Key Activities
-Requirement Gathering:
 
-Collaborated with ABC stakeholders to understand business needs.
+## Key Activities:
+1)Requirement Gathering:
+Collaborated with  stakeholders to understand business needs.
 Identified key product fields like name, description, price, categories, attributes, availability, and ratings.
-Database Schema Design:
 
+2)Database Schema Design:
 Designed a MongoDB schema to store product data flexibly with nested objects like ratings and availability.
-API Development:
 
+3)API Development:
 Designed RESTful endpoints for operations like:
 POST /api/products: To add a new product.
 GET /api/products: To fetch all products or filter based on attributes.
 GET /api/products/{id}: To retrieve a specific product by ID.
 PUT /api/products/{id}: To update a product.
 DELETE /api/products/{id}: To delete a product.
-Error Handling:
 
+4)Error Handling:
 Implemented structured error responses for invalid inputs (e.g., 400, 404, 500 statuses).
-Testing:
 
+5)Testing:
 Conducted functional testing using Postman.
-Wrote unit tests with JUnit for service-level logic.
-Deployment:
 
+6)Deployment:
 Packaged the API with Maven.
-Deployed it in a cloud-hosted environment for accessibility.
-Key Findings
-Performance:
+
+## Key Findings:
+1)Performance:
 MongoDB’s schema-less nature allowed quick development but needed indexing for better search performance.
-
-Scalability:
+2)Scalability:
 The microservice architecture of Spring Boot made the API modular and scalable for future enhancements.
-
-Challenges:
-
-Handling dynamic product attributes required careful validation and mapping.
-API endpoints had to be optimized to prevent over-fetching of data.
-Ease of Use:
+3)Ease of Use:
 Clear API documentation and well-defined responses helped in seamless client integration.
 
 Conclusion
-The RESTful API for Product Catalogue successfully met ABC Company's requirements by providing a flexible, fast, and reliable backend solution for product management. The implementation with MongoDB allowed dynamic attributes and easy scalability. Key highlights of the project were:
-
-A user-friendly interface for managing the product catalogue.
-Scalability for handling thousands of products.
-Seamless integration with client-facing applications.
+The RESTful API for Product Catalogue successfully met ABC Company's requirements by providing a flexible, fast, and reliable backend solution for product management. The implementation with MongoDB allowed dynamic attributes and easy scalability. K
